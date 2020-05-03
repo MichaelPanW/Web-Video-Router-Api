@@ -1,59 +1,62 @@
-[{
-        "name": "PornHub",
-        "limit": true,
-        "url": "https://cn.pornhub.com/video/search?search={search}&page={page}",
-        "content": {
-            "panel": "ul[id='videoSearchResult']",
-            "list": "a[class='fade fadeUp videoPreviewBg linkVideoThumb js-linkVideoThumb img ']",
-            "title": {
-                "prefix": "",
-                "parent": "",
-                "attributes": "title"
-            },
-            "url": {
-                "prefix": "https://cn.pornhub.com",
-                "parent": "",
-                "attributes": "href"
-            },
-            "img": {
-                "prefix": "",
-                "parent": "img",
-                "attributes": "data-thumb_url"
-            },
-            "time": {
-                "prefix": "",
-                "parent": "var[class='duration']",
-                "attributes": "text"
+{
+    "version": "1.0",
+    "sites": [{
+            "name": "PornHub",
+            "limit": true,
+            "url": "https://cn.pornhub.com/video/search?search={search}&page={page}",
+            "content": {
+                "panel": "ul[id='videoSearchResult']",
+                "list": "a[class='fade fadeUp videoPreviewBg linkVideoThumb js-linkVideoThumb img ']",
+                "title": {
+                    "prefix": "",
+                    "parent": "",
+                    "attributes": "title"
+                },
+                "url": {
+                    "prefix": "https://cn.pornhub.com",
+                    "parent": "",
+                    "attributes": "href"
+                },
+                "img": {
+                    "prefix": "",
+                    "parent": "img",
+                    "attributes": "data-thumb_url"
+                },
+                "time": {
+                    "prefix": "",
+                    "parent": "var[class='duration']",
+                    "attributes": "text"
+                }
+            }
+        },
+        {
+            "name": "伊莉影片區",
+            "limit": true,
+            "url": "https://cn.pornhub.com/video/search?search={search}&page={page}",
+            "content": {
+                "panel": "ul[id='videoSearchResult']",
+                "list": "a[class='fade fadeUp videoPreviewBg linkVideoThumb js-linkVideoThumb img ']",
+                "title": {
+                    "prefix": "",
+                    "parent": "",
+                    "attributes": "title"
+                },
+                "url": {
+                    "prefix": "https://cn.pornhub.com",
+                    "parent": "",
+                    "attributes": "href"
+                },
+                "img": {
+                    "prefix": "",
+                    "parent": "img",
+                    "attributes": "data-thumb_url"
+                },
+                "time": {
+                    "prefix": "",
+                    "parent": "var[class='duration']",
+                    "attributes": "text"
+                }
             }
         }
-    },
-    {
-        "name": "伊莉影片區",
-        "limit": true,
-        "url": "https://cn.pornhub.com/video/search?search={search}&page={page}",
-        "content": {
-            "panel": "ul[id='videoSearchResult']",
-            "list": "a[class='fade fadeUp videoPreviewBg linkVideoThumb js-linkVideoThumb img ']",
-            "title": {
-                "prefix": "",
-                "parent": "",
-                "attributes": "title"
-            },
-            "url": {
-                "prefix": "https://cn.pornhub.com",
-                "parent": "",
-                "attributes": "href"
-            },
-            "img": {
-                "prefix": "",
-                "parent": "img",
-                "attributes": "data-thumb_url"
-            },
-            "time": {
-                "prefix": "",
-                "parent": "var[class='duration']",
-                "attributes": "text"
-            }
-        }
-    }
-]
+    ]
+}
