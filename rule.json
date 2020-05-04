@@ -76,7 +76,7 @@
                     "attributes": "href"
                 },
                 "img": {
-                    "prefix": "",
+                    "prefix": "https:",
                     "parent": "img",
                     "attributes": "src"
                 },
