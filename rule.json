@@ -59,7 +59,7 @@
             }
         },
         {
-            "name": "IMOVIE4U電影線上看",
+            "name": "IMOVIE4U電影",
             "limit": true,
             "url": "https://www.imovie4u.com/page/{page}/?s={search}",
             "content": {
@@ -82,7 +82,7 @@
                 },
                 "time": {
                     "prefix": "",
-                    "parent": "div[class='year']",
+                    "parent": "span[class='year']",
                     "attributes": "text"
                 }
             }
