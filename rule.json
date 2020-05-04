@@ -57,6 +57,35 @@
                     "attributes": "text"
                 }
             }
+        },
+        {
+            "name": "IMOVIE4U電影線上看",
+            "limit": true,
+            "url": "https://www.imovie4u.com/page/{page}/?s={search}",
+            "content": {
+                "panel": "",
+                "list": "div[class='result-item']",
+                "title": {
+                    "prefix": "",
+                    "parent": "div[class='title']",
+                    "attributes": "text"
+                },
+                "url": {
+                    "prefix": "",
+                    "parent": "a",
+                    "attributes": "href"
+                },
+                "img": {
+                    "prefix": "",
+                    "parent": "img",
+                    "attributes": "src"
+                },
+                "time": {
+                    "prefix": "",
+                    "parent": "div[class='year']",
+                    "attributes": "text"
+                }
+            }
         }
     ]
 }
