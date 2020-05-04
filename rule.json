@@ -42,7 +42,7 @@
                     "attributes": "text"
                 },
                 "url": {
-                    "prefix": "",
+                    "prefix": "http://video.eyny.com",
                     "parent": "a",
                     "attributes": "href"
                 },
