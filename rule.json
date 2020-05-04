@@ -38,7 +38,7 @@
                 "list": "div[class='img_div_width']",
                 "title": {
                     "prefix": "",
-                    "parent": "p[style='margin:2px; word-wrap: break-word;']",
+                    "parent": "p",
                     "attributes": "text"
                 },
                 "url": {
