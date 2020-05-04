@@ -32,28 +32,28 @@
         {
             "name": "伊莉影片區",
             "limit": true,
-            "url": "https://cn.pornhub.com/video/search?search={search}&page={page}",
+            "url": "http://video.eyny.com/channel/UCYrHXcc_kb/tag/{search}&page={page}",
             "content": {
-                "panel": "ul[id='videoSearchResult']",
-                "list": "a[class='fade fadeUp videoPreviewBg linkVideoThumb js-linkVideoThumb img ']",
+                "panel": "",
+                "list": "div[class='img_div_width']",
                 "title": {
                     "prefix": "",
-                    "parent": "",
-                    "attributes": "title"
+                    "parent": "p[style='margin:2px; word-wrap: break-word;']",
+                    "attributes": "text"
                 },
                 "url": {
-                    "prefix": "https://cn.pornhub.com",
-                    "parent": "",
+                    "prefix": "",
+                    "parent": "a",
                     "attributes": "href"
                 },
                 "img": {
                     "prefix": "",
                     "parent": "img",
-                    "attributes": "data-thumb_url"
+                    "attributes": "src"
                 },
                 "time": {
                     "prefix": "",
-                    "parent": "var[class='duration']",
+                    "parent": "div[class='img_div_height']",
                     "attributes": "text"
                 }
             }
